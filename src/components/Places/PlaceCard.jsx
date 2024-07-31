@@ -30,7 +30,7 @@ const PlaceCard = ({
             <IoLocationSharp />
             <span>{location}</span>
           </div>
-          <p className="line-clamp-2">{description}</p>
+          <p className="line-clamp-10">{description}</p>
           <div className="flex items-center justify-between border-t-2 py-3 !mt-3">
             <div className="opacity-70">
               <p>{type}</p>

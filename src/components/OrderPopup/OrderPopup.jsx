@@ -24,26 +24,42 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
             </div>
             {/* Body */}
             <div className="mt-4">
-              <input
-                type="text"
-                placeholder="Name"
-                className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
-              />
-              <input
-                type="email"
-                placeholder="email"
-                className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
-              />
-              <input
-                type="text"
-                placeholder="Address"
-                className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
-              />
-              <div className="flex justify-center">
-                <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full ">
-                  Book Now
-                </button>
-              </div>
+              <form
+                action="https://getform.io/f/lakmozxa"
+                method="POST"
+                name="myForm"
+              >
+                <input
+                  type="text"
+                  placeholder="Name"
+                  id="name"
+                  className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
+                  required
+                  pattern="[A-Za-z]{3,}"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  id="email"
+                  className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Address"
+                  id="address"
+                  className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
+                />
+                <div className="flex justify-center">
+                  <button
+                    className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full "
+                    disabled={false}
+                    onclick="alert('Button clicked!')"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
