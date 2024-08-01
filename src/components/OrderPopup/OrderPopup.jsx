@@ -32,7 +32,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
                 <input
                   type="text"
                   placeholder="Name"
-                  id="name"
+                  name="name"
                   className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
                   required
                   pattern="[A-Za-z]{3,}"
@@ -40,14 +40,14 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
                 <input
                   type="email"
                   placeholder="Email"
-                  id="email"
+                  name="email"
                   className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
                   required
                 />
                 <input
                   type="text"
                   placeholder="Address"
-                  id="address"
+                  name="address"
                   className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
                 />
                 <div className="flex justify-center">
