@@ -21,7 +21,9 @@ const About = () => {
           <br />
           <p>
           Whether you’re planning an upcoming trip for work or leisure & family vacations,  we make the booking process easy and enjoyable. 
-          Call us today and start traveling!
+           <p>
+           Call us today and start traveling!
+           </p>
           </p>
         </div>
       </div>
