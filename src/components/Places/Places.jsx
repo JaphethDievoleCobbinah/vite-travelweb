@@ -27,10 +27,10 @@ const PlacesData = [
   
   {
     img: Img3,
-    title: "Underwater",
-    location: "US",
+    title: "Dubai Package ",
+    location: "Dubai",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Join Q1 Travel and Tours on this journey to witness where modern luxury seamlessly interwines with rich tradition. Dubai is known for its riches, its glitzy and innovative development and architecture, and its shopping scenes. From the tranquility of the deserts to the hub of the souks, there is a huge range of things to see and do in Dubai. Dubai is a fun destination for everyone. Choose one of Family Trips, Group Trips & Honeymooners package and get wowed in every minute.",
     price: 6200,
     type: "Cultural Relax",
   },

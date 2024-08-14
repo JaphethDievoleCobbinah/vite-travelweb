@@ -31,7 +31,7 @@ const Home = () => {
           <Hero />
         </div>
         <Places handleOrderPopup={handleOrderPopup} />
-        <BannerPic img={BannerImg} />
+        {/* <BannerPic img={BannerImg} /> */}
         <BlogsComp />
         <Banner />
         <BannerPic img={Banner2} />

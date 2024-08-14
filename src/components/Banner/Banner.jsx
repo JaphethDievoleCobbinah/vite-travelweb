@@ -25,15 +25,15 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold"
                 >
-                  Explore all corners of The world with us
+                  Individual & Group Planned Tours
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-8"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio ratione ex alias quis magni at optio
+                  We provide individual and group tours for all age groups. Throughout the many years of providing 
+                  this service to clients, we have gained the experience and expertise necessary to make this process 
+                  as seamless as possible.
                   <br />
                 </p>
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">

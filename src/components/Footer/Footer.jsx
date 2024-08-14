@@ -49,9 +49,9 @@ const Footer = () => {
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
+              Whether you’re looking for family  vacation, a romantic escape or  group packages, 
+              we provide all of the professional and personalized services to cater for your needs. 
+              Learn more about our service offerings below, and reach out with any questions.
               </p>
               <br />
               <div className="flex items-center gap-3 ">

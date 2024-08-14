@@ -5,6 +5,7 @@ import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
+
 export const NavbarLinks = [
   {
     name: "Home",
@@ -51,8 +52,8 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="bg-gradient-to-r from-primary to-secondary text-white ">
           <div className="container py-[2px] sm:block hidden">
             <div className="flex items-center justify-between">
-              <p className="text-sm">20% off on next booking</p>
-              <p>mobile no. 012345678900</p>
+              <p className="text-sm">q1.traveltours@gmail.com</p>
+              <p>+233 30 224 6577 / +233 24 897 1927</p>
             </div>
           </div>
         </div>
@@ -61,6 +62,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <div className="flex items-center gap-4  font-bold text-2xl">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img src={Logo} alt="" className="h-16" />
+              <p className="text-sm">Always At Your Service</p>
               </Link>
               {/* <span>TCJ Tourism</span> */}
             </div>
