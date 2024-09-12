@@ -1,7 +1,7 @@
 import React from "react";
 import PlaceCard from "./PlaceCard";
 import Img1 from "../../assets/places/zanzibar.jpg";
-import Img2 from "../../assets/places/tajmahal.jpg";
+import Singapore from "../../assets/places/Singapore01.jpg";
 import Img3 from "../../assets/places/blog1.jpg";
 import Img4 from "../../assets/places/place4.jpg";
 import Img5 from "../../assets/places/place5.jpg";
@@ -34,6 +34,26 @@ const PlacesData = [
     price: 6200,
     type: "Cultural Relax",
   },
+
+  {
+    img: Singapore,
+    title: "SINGAPORE ADVENTURE - UNVEIL THE MAGIC OF SINGAPORE",
+    location: "SIGNAPORE || Explore The Lion City In Style",
+    description:
+      "Return flights Accra to Singapore 5 Nights Accommodation in a 5***** luxury hotel, Daily breakfast, Gardens by the Bay and MBS Observation Deck, Half Day Singapore City Tour, Sentosa Tour, Return airport transfer from Singapore Airport, All tours on PVT Basis, All taxes included",
+    price:2500,
+    type: "ESTIMATED COST PER PERSON SHARING",
+  },
+  {
+    img: Img3,
+    title: " CHRISTMAS IN DUBAI",
+    location: "Dubai || Group Size: 10",
+    description:
+      "06 Nights' accommodation in the specified hotel, Daily Breakfast, Desert Safari with BBQ Dinner (Premium), Dhow Cruise Marina with 04 Star Dinner, Half day Dubai City Tour, Burj Khalifa 124 Floor off Peak tickets with transfer, Dubai Mall Aquarium Underwater Zoo tickets with transfer, Museum of the Future ticket with transfer, Atlantis Aquaventure Waterpark, Dubai Tourist Visa Fees, Private Return Airport Transfers (Dubai International Airport Terminal 1, 2, or 3),All transfers on a SIC basis. ",
+    price:880,
+    type: "ESTIMATED COST PER PERSON SHARING",
+  },
+ 
  
 ];
 
